@@ -1,10 +1,9 @@
 package main
 
+import "fmt"
+
 func main() {
-	x := 10
-	if x > 5 {
-		println("x is greater than 5")
-	} else {
-		println("x is less than or equal to 5")
+	for i := 0; i < 10; i++ {
+		fmt.Println(i)
 	}
 }
