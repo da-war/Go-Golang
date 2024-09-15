@@ -1,13 +1,10 @@
 package main
 
-import "fmt"
-
-func sum(a int, b int) int {
-	return a + b
-}
-
 func main() {
-
-	var sumOfTwo = sum(1, 2)
-	fmt.Println(sumOfTwo)
+	x := 10
+	if x > 5 {
+		println("x is greater than 5")
+	} else {
+		println("x is less than or equal to 5")
+	}
 }
